@@ -1,0 +1,49 @@
+/* 
+Challenge:
+Re-design the cookie widget!
+PS: Make sure you change ALL of the listed CSS properties.
+*/
+
+body {
+   margin: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin: 0 auto;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+}
+
+.dottedborder{
+    border-bottom: 5px solid #ddebf8; 
+}
+
+.centertext {
+    text-align: center;
+}
+
+anotherCenterText{
+    text-align: center;
+}
+
+/* 
+black #2b2839
+blue #ddebf8
+purple #d8cefe */
+/*Line comment */
+
+/*How to write Margins:
+margin: 10px 0 0 10px;
+if top and bottom: margin: 10px auto
+if left and right only: margin: auto 10px
+*/
